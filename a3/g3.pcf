@@ -1,0 +1,30 @@
+S -> NP VP       0.33
+S -> VP          0.33
+S -> X1 PP       0.34
+X1 -> NP VP      1.0
+NP -> Det N      0.1
+NP -> Poss N     0.1
+NP -> PN         0.1
+NP -> Prn        0.1
+NP -> NP PP      0.6
+PP -> P NP       1.0
+VP -> V          0.6
+VP -> V NP       0.1
+VP -> VP PP      0.3
+N -> "book"      0.2
+N -> "flight"    0.2
+N -> "elephant"  0.2
+N -> "pajamas"   0.2
+N -> "shot"      0.2
+V -> "book"      0.25
+V -> "booked"    0.25
+V -> "shoot"     0.25
+V -> "shot"      0.25
+PN -> "Houston"  1.0
+P -> "in"        0.5
+P -> "through"   0.5
+Det -> "the"     0.3
+Det -> "an"      0.3
+Det -> "a"       0.4
+Poss -> "my"     1.0
+Prn -> "I"       1.0

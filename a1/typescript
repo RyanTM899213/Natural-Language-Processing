@@ -1,0 +1,22 @@
+Script started on Mon 22 Sep 2014 09:04:22 AM NDT
+[01;32mryan@rookisland[01;34m ~/cs4750/a1 $[00m python tcomp1.py nm1.dat 2 nm2.dat nm3.dat
+>>> Sim(nm1.dat, nm2.dat) = 0.000
+>>> Sim(nm1.dat, nm3.dat) = 0.940
+File "nm3.dat" is most similar to "nm1.dat"
+[01;32mryan@rookisland[01;34m ~/cs4750/a1 $[00m python tcomp1.py nm1.dat 3 nm2.dat nm3.dat
+>>> Sim(nm1.dat, nm2.dat) = 0.000
+>>> Sim(nm1.dat, nm3.dat) = 0.850
+File "nm3.dat" is most similar to "nm1.dat"
+[01;32mryan@rookisland[01;34m ~/cs4750/a1 $[00m python tcomp2.py tc1.dat tc2.dat tc3.dat
+>>> Sim(tc1.dat, tc2.dat) = 0.857
+>>> Sim(tc1.dat, tc3.dat) = 0.737
+File "tc2.dat" is most similar to "tc1.dat"
+[01;32mryan@rookisland[01;34m ~/cs4750/a1 $[00m python tcomp2.py tc2.dat tc1.dat tc3.dat
+>>> Sim(tc2.dat, tc1.dat) = 0.857
+>>> Sim(tc2.dat, tc3.dat) = 0.750
+File "tc1.dat" is most similar to "tc2.dat"
+[01;32mryan@rookisland[01;34m ~/cs4750/a1 $[00m python index1.py word1.txt text1.txt index1.txt
+[01;32mryan@rookisland[01;34m ~/cs4750/a1 $[00m exit
+exit
+
+Script done on Mon 22 Sep 2014 09:05:49 AM NDT

@@ -1,0 +1,25 @@
+    README
+
+
+To run the programs, we need to have python installed and cd'd into the directory 
+which contains the data files corresponding to each program so that python can access 
+these files. To run the programs in terminal:
+
+for number 1: 
+    type python tcomp1.py followed by the name of the master comparison text file
+    and then the at least two other text files we want to compare to the master.
+    
+for number 2:
+    type python tcomp2.py followed by the name of the comparison text file names.
+    ie python tcomp2.py tc1.dat tc2.dat tc3.dat
+    
+for number 3:
+    type in terminal python index1.py word1.txt text1.txt index1.txt.
+    this writes all data to index1.txt for the user to view after running this code.
+    all data is manipulated and stored in that text file instead of printing to the 
+    screen.
+    
+Also included is the typescript file which shows the terminal output when i ran the
+programs from terminal. check this to verify my code runs correctly, but im sure you'll
+run the code yourself.    
+
